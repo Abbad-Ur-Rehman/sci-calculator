@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700;900&family=Montserrat:ital,wght@0,500;0,600;0,900;1,700&family=Pacifico&family=Poppins:ital,wght@0,300;0,500;0,900;1,100&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+
+  <div class="hero" id="hero">
+      <div class="red" id="red"></div>
+        <div class="calculator">
+          <div id="history">
+            <h2>history</h2>
+            <div id="bordrs"></div>
+            <div class="icon" id="icon"><i class="fa-sharp fa-solid fa-xmark"></i></div>
+            <div id="storebtn">Clear history</div>
+          </div>
+  
+            <div class="cal-front">
+                <div class="display">
+                  <div class="input"></div>
+                  <div class="output"></div>
+                </div>
+                <div class="buttons">
+                  <div class="row">
+                    <button class="oprator" id="oprator1">C</button>
+                    <button class="oprator" id="oprator2">/</button>
+                    <button class="oprator" id="oprator3">%</button>
+                    <button class="oprator back" id="oprator4">DEL</button>
+                  </div>
+                  <div class="row">
+                    <button >7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="oprator" id="oprator5">x</button>
+                  </div>
+                  <div class="row">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="oprator" id="oprator6">-</button>
+                  </div>
+                  <div class="row">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="oprator sum" id="oprator7">+</button>
+                  </div>
+                  <div class="row">
+                    <button class="zero">0</button>
+                    <button>.</button>
+                    <button class="oprator equal" id="oprator8">=</button>
+                    
+                  </div>
+                </div>
+                <div class="bar">
+                  <span id="storeData"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></span>
+                  <span class="his"><i class="fa-sharp fa-solid fa-palette"></i></span>
+                </div>
+                
+        </div>
+        <div class="cal-Back back-2">
+          <div class="row">
+            <button onclick="sin()">Sin</button>
+            <button onclick="cos()">Cos</button>
+            <button onclick="tan()">tan</button>
+          </div>
+          <div class="row">
+            <button onclick="e()">e</button>
+            <button>log</button>
+            <button onclick="pi()">Pi</button>
+          </div>
+          <div class="row">
+            <button>(</button>
+            <button>)</button>
+            <button onclick="pow()">xY</button>
+          </div>
+        </div>
+        <div class="row-2"> <span></span>Scientific</div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
